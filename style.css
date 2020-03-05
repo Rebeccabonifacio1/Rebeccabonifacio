@@ -1,0 +1,145 @@
+<style>
+    .topnav {
+            background-image: url(images/indexbackground.jpg);
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            color: lavender;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px; 
+            font-family: 'Oswald', sans-serif;
+        
+        }
+        
+        .topnav a:hover {
+            background-color: gainsboro;
+            color: whitesmoke;
+        }
+        
+        .topnav a.active {
+            background-color: cornflowerblue;
+            color: lavender; 
+        }
+header {
+    background-image: url(images/indexbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+   font-family: 'Amatic SC', cursive;
+    font-size: 30px; 
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: lavender;
+  color: black;
+}
+
+.fa-instagram {
+  background-color: white;
+  color: white;
+   
+}
+.fa-linkedin {
+    background-color: white;
+    color: white;
+}
+ 
+
+body {
+	background-color: black;
+}
+
+
+h1 {
+  
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: .01em;
+	padding: 10rem 0 0 4.5rem;
+	text-shadow: .022em .022em .022em #111;
+	color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive; 
+}
+
+h3 { 
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+h4 { 
+    color: white; 
+    font-family: 'Signika', sans-serif;
+}
+h5 { color: white; 
+    font-family: 'Signika', sans-serif;
+}
+h6 {
+    color: white;
+}
+
+main {
+	padding: calc(var(--heading-height) + 1.5vw) 4em 0;
+}
+
+p { 
+    font-family: 'Signika', sans-serif;
+    font-size: calc(2em + .25vw);
+	font-weight: 400;
+	line-height: 2;
+	margin-bottom: 1.5em;
+	color: white;
+}
+
+ul {
+    font-size: 15px;
+    letter-spacing: .02em;
+    float: left;
+    overflow: auto;
+    color: white; 
+    font-family: 'Signika', sans-serif;
+        }
+a:link {
+    color:lightcyan
+}    
+
+a:visited {
+    color: #e8dcf2
+}
+
+a: hover {
+   color: white
+}
+
+a: active {
+    color: aliceblue
+}
+    
+footer {
+    background-image: url(images/indexbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+   font-family: 'Amatic SC', cursive;
+    font-size: 30px; 
+
+}
+
