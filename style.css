@@ -45,12 +45,12 @@ header {
 }
 
 .fa-facebook {
-  background-color: white;
+  background-color: lavender;
   color: black;
 }
 
 .fa-instagram {
-  background-color: lavender;
+  background-color: white;
   color: white;
    
 }
@@ -119,7 +119,7 @@ ul {
     font-family: 'Signika', sans-serif;
         }
 a:link {
-    color:white
+    color:white;
 }    
 
 a:visited {
@@ -131,7 +131,7 @@ a: hover {
 }
 
 a: active {
-    color: white;
+    color: aliceblue
 }
     
 footer {
@@ -142,4 +142,4 @@ footer {
     font-size: 30px; 
 
 }
-
+</style>
