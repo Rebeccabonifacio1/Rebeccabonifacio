@@ -1,57 +1,103 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <meta charset="utf-8">
-        <html lang="en"> </html>
-        <title> Site Synopsis </title>
-        <meta name="description" content="Site Synopsis ">
+    <html> 
+        <head>
+            <meta charset="utf-8">
+            <html lang="en" /html> 
+        <title> Contact </title>
+        <meta name="description" content="Rebecca Bonifacio's Contact page">
         <meta name="author" content="Rebecca Bonifacio">
- <link rel="stylesheet" href="style.css"> 
+ <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald|Signika&display=swap" rel="stylesheet">
-    </head> 
-    <style>
-    p {
-    font-size: 16px; </style>
+            </html>
+        </head>
+<style> 
+
+  
+  
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #fff; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: cornflowerblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: paleturquoise;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: lavender;
+  padding: 20px;
+}
+</style>
 <div class="topnav"> 
     <a href="index.html"> Home</a>
     <a href="Aboutme.html"> About Me</a>
     <a href="Bonifacio-Resume1.html"> Resume </a>
     <a href="Portfolio.html"> Gallery </a>
     <a href="Actualport.html"> Portfolio</a>
-    <a href="synopsis.html"> Site Synopsis </a>
+    <a href="synopsis.html"> Site Synopsis</a>
     <a href="contact.html"> Contact </a>
     </div>
-    <header>
-    <h1> Site Synopsis  </h1>
-    </header>
-<body>
-<p> Being a SMAD major, I always knew creating a personal website was in the cards. There’s no better way to showcase your work then by designing a website that not only demonstrates your skillsets, but also your creativity. Although I have an online portfolio already, building a website from the ground up is something I always wanted to do and this assignment pushed me to do so. </p>
-<br>
-<p> Although my website is nowhere near where I want it to be, it accurately displays my current abilities with HTML and CSSl. I envision this website (one day) being submitted alongside resumes and personal statements to potential employers or graduate programs. </p>
-<br>
-<p> This website was built for me to show off my work, therefore it’s no surprise that the majority of my content does that. My home page is simple, with a brief synopsis of what the site entails and who I am. I didn’t want it to be too busy as to distract my viewer, but instead encourage them to continue on with the site. </p>
-<br>
-<p> Next, my "About Me" page is a great display of who I am: academically, creatively and just in living everyday. It is by no means a replacement for a resume, but instead introduces important aspects of my life to help my viewer get to know my personality better. I list my program of studies, in addition to the organizations I’m involved in and how those have impacted me as a leader and person. I included photos of myself doing the things I like with the people I love most. I also listed websites that are important to me, to better help my viewer understand my aesthetic and morals. </p>
-<br>
-    <p> My "Resume" is essentially the same as a PDF version of my resume, however, it features interactive links for my viewer. If they, for example, would like to learn more about my program of study, they can simply click the link and be directed to my major's homepage. </p>
-<br>
-<p> My "Gallery" and "Portfolio" serve similar purposes. My gallery is some of the best photos I've captured. It includes those taken for classes, organizations and from my own travels and personal endeavors. It is meant to be easy on the eye and simple to follow, but still an aesthetic nonetheless. My portfolio does the same, however, it showcases some of my best advertisements and designs, made for a variety of things. </p>
-<br> 
-<p> Finally, my "Contact" page is an easy way to get in touch with me. It contains my basic information, alongside a message box that I can directly access. </p>
-<br>
-<p> When I was thinking about my visual design and layout, I knew I wanted something that was simple and easy to follow, but still different. I prefer darker colors, which is why I opted for a black background. I also think the black pulls my image and portfolio galleries together. I made the header and footer stars to better represent a personal aspect of my life. I’ve always had an infatuation for space and thought this would be a good way to represent it. My other main stylistic choice that you can see throughout the site is lavender, which is simply my favorite color.</p>
-<br>
-<p> The HTML/CSS did not come easy and there was definitely a learning curve. I found myself constantly looking for solutions to problems online, and then realizing that I was only off by one simple step or a missed tag. Although the code was finicky and frustrating, I was beaming with pride by the time the website was finished. I began to get the hang of it and pick up speed the more I practiced and feel as though I improved a great deal over the course of the few weeks I worked on this project. </p>
-<br>
-<p> All in all, I feel as though this project really showed me what I should expect in terms of Interactive Design. Although I’m a Journalism concentration, I have always loved the idea of website design, and this project not only showed me that I’m capable, but that this is a very viable career path for me. I have a lot of learning and growing to do, however, this project really helped me become more familiar with code while still displaying my creative side.  </p>
-    </body>
- <footer>
+<header>
+        <h1> Contact Me </h1>
+        </header>
+    <body> 
+        <h2> Contact Information</h2>
+        <h3> Email: Bonifard@dukes.jmu.edu</h3>
+        <h3> Phone Number: (201)744-3480</h3>
+    
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="design">Design</option>
+      <option value="Campaigns">Campaigns</option>
+      <option value="Social Media">Social Media </option>
+    <option value="Other">Other</option>
+    </select>
+
+    <label for="Message">Message</label>
+    <textarea id="Message" name="Message" placeholder="I'd love to hear from you..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+<footer>
     <h2> I'd love to hear from you...</h2>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <a href="https://www.linkedin.com/in/rebeccabonifacio/" target=_blank class="fa fa-linkedin"></a>
 
 <a href="https://www.facebook.com/becca.bonifacio" target=_blank class="fa fa-facebook"></a>
 
 <a href="https://www.instagram.com/rebeccabonifacio_/" target=_blank class="fa fa-instagram"></a>
-    <h5> Made by Rebecca Bonifacio for SMAD</h5></footer>
+    <h5> Made by Rebecca Bonifacio for SMAD</h5>
+</footer>
 </html>
