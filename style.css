@@ -1,143 +1,89 @@
-.topnav {
-            background-image: url(images/indexbackground.jpg);
-            overflow: hidden;
-        }
-        .topnav a {
-            float: left;
-            color: lavender;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 20px; 
-            font-family: 'Oswald', sans-serif;
-        
-        }
-        
-        .topnav a:hover {
-            background-color: gainsboro;
-            color: whitesmoke;
-        }
-        
-        .topnav a.active {
-            background-color: cornflowerblue;
-            color: lavender; 
-        }
-header {
-    background-image: url(images/indexbackground.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-   font-family: 'Amatic SC', cursive;
-    font-size: 30px; 
-
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background-color: lavender;
-  color: black;
-}
-
-.fa-instagram {
-  background-color: white;
-  color: white;
-   
-}
-.fa-linkedin {
-    background-color: white;
+.header {
+    padding: 60px;
+    text-align: center;
+    background: black;
     color: white;
+    font-size; 30px;
 }
- 
-
-body {
-	background-color: black;
-}
-
 
 h1 {
-  
-	font-size: 100px;
-	font-weight: 700;
-	letter-spacing: .01em;
-	padding: 10rem 0 0 4.5rem;
-	text-shadow: .022em .022em .022em #111;
-	color: white;
-    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-family: 'roboto mono', monospace;
 }
 
 h2 {
-    color: white;
-    font-size: 40px;
-    font-family: 'Amatic SC', cursive; 
+    font-size: 20px;
+    font-family: 'roboto mono', monospace;
+    text-align: center; 
+    padding-left: 70px;
+    padding-right: 70px; 
+}
+h3 {
+    font-size: 30px;
+    font-family: 'source serif pro', serif; 
+}
+h4 {
+    font-size: 18px;
+    font-family: 'source serif pro', serif;
+    
+}
+#introduction {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'roboto mono', monospace;
 }
 
-h3 { 
-    color: white;
-    font-family: 'Signika', sans-serif;
-}
-h4 { 
-    color: white; 
-    font-family: 'Signika', sans-serif;
-}
-h5 { color: white; 
-    font-family: 'Signika', sans-serif;
-}
-h6 {
-    color: white;
+#app-analysis {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'roboto mono', monospace;
 }
 
-main {
-	padding: calc(var(--heading-height) + 1.5vw) 4em 0;
-}
-
-p { 
-    font-family: 'Signika', sans-serif;
-    font-size: calc(2em + .25vw);
-	font-weight: 400;
-	line-height: 2;
-	margin-bottom: 1.5em;
-	color: white;
+#user-needs {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'roboto mono', monospace;
 }
 
 ul {
-    font-size: 15px;
-    letter-spacing: .02em;
-    float: left;
-    overflow: auto;
-    color: white; 
-    font-family: 'Signika', sans-serif;
-        }
-a:link {
-    color:white;
-}    
-
-a:visited {
-    color: #e8dcf2
+    text-align: center;
+    list-style: inside;
+    font-weight: bold;
+    font-size: 12px;
+}
+.center {
+    text-align: center;
 }
 
-a: hover {
-   color: white
+#pain-points {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'roboto mono', monospace;
+}
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto mono', monospace; 
+    font-weight: bold;
 }
 
-a: active {
-    color: aliceblue
+hr {
+    border:0;
+    height:20px;
+    background: url(snakes-border1.png) ; 
 }
-    
+
+#conclusion {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'roboto mono', monospace; 
+}
+
 footer {
-    background-image: url(images/indexbackground.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-   font-family: 'Amatic SC', cursive;
-    font-size: 30px; 
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
